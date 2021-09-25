@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 /**
  * 977. 有序数组的平方
- * @ https://leetcode-cn.com/problems/squares-of-a-sorted-array/
+ * @website https://leetcode-cn.com/problems/squares-of-a-sorted-array/
+ * @author xuebing.li
  */
 public class LC_0977 {
 
