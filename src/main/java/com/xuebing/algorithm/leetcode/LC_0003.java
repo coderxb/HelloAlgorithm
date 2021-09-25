@@ -1,15 +1,9 @@
-/**
- * Solution_3.java   2015年5月4日 下午4:31:45 by gordon.li 
- *
- * Copyright (c) 2000 - 2015 gordon.Li. All rights reserved.
- * 
- */
 package com.xuebing.algorithm.leetcode;
 
 /**
  * Longest Substring Without Repeating Characters
  *
- * @ClassName Solution_3
+ * @ClassName LC_0003
  * @Description Given a string, find the length of the longest substring without repeating characters. For example, the
  * longest substring without repeating letters for "abcabcbb" is "abc", which the length is 3. For "bbbbb" the longest
  * substring is "b", with the length of 1.
@@ -17,7 +11,7 @@ package com.xuebing.algorithm.leetcode;
  * @author gordon.li coderxb@163.com
  * @date 2015年5月4日 下午4:32:02
  */
-public class Solution_3 {
+public class LC_0003 {
 
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.equals(""))
@@ -46,7 +40,7 @@ public class Solution_3 {
     }
 
     public static void main(String[] args) {
-        Solution_3 solution = new Solution_3();
+        LC_0003 solution = new LC_0003();
         int len = solution.lengthOfLongestSubstring("dvdf");
         System.out.println("longest substring = " + len);
     }

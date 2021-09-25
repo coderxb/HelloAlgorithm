@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Two Sum
  * 
- * @ClassName Solution_1
+ * @ClassName LC_0001
  * @Description <p>Given an array of integers, find two numbers such that they add up to a specific target number.
  * 
  * The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must
@@ -20,7 +20,7 @@ import java.util.Map;
  * @author gordon.li coderxb@163.com
  * @date 2015年4月24日 下午3:59:40
  */
-public class Solution_1 {
+public class LC_0001 {
 
     public static int[] twoSumForSimple(int[] nums, int target) {
         int[] result = new int[2];
@@ -37,7 +37,7 @@ public class Solution_1 {
 
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (!map.containsKey(target - nums[i])) {
                 map.put(target - nums[i], i);
