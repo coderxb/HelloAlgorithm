@@ -11,7 +11,9 @@ package com.xuebing.algorithm.interview;
  * 
  * @ClassName EatPeach
  * @Description 猴子吃桃问题：
- * 猴子吃桃子问题：猴子第一天摘下N个桃子，当时就吃了一半，还不过瘾，就又吃了一个。第二天又将剩下的桃子吃掉一半，又多吃了一个。以后每天都吃前一天剩下的一半零一个。到第10天在想吃的时候就剩一个桃子了,求第一天共摘下来多少个桃子？
+ * 猴子吃桃子问题：猴子第一天摘下N个桃子，
+ * 当时就吃了一半，还不过瘾，就又吃了一个。第二天又将剩下的桃子吃掉一半，又多吃了一个。
+ * 以后每天都吃前一天剩下的一半零一个。到第10天在想吃的时候就剩一个桃子了,求第一天共摘下来多少个桃子？
  * 
  * 公式 : tomorrow = today / 2 - 1; 推出 today = 2tomorrow + 2; 或 today = 2(tomorrow + 1);
  * 
@@ -21,7 +23,7 @@ package com.xuebing.algorithm.interview;
 public class EatPeach {
 
     public static void main(String[] args) {
-        int amount = eat(10);
+        int amount = eat2(10);
         System.out.println("第一天摘了" + amount + "个");
     }
 

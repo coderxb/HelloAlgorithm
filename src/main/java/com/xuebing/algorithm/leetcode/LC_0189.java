@@ -31,7 +31,7 @@ public class LC_0189 {
         LC_0189 lc_0189 = new LC_0189();
 
         int[] nums = new int[]{1,2,3,4,5,6,7};
-        int k = 3;
+        int k = 2;
 
         lc_0189.rotate(nums, k);
         System.out.println("Result = " + Arrays.toString(nums));

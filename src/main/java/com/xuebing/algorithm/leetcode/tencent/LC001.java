@@ -38,8 +38,8 @@ public class LC001 {
     }
 
     public static void main(String[] args) {
-        //int[] nums = new int[]{2,7,11,15};
-        int[] nums = new int[]{3,2,4};
+        int[] nums = new int[]{2,7,11,15};
+        // int[] nums = new int[]{3,2,4};
         int target = 9;
         LC001 lc001 = new LC001();
         int[] result = lc001.twoSumForHash(nums, target);
